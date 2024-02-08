@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<style>
+    form {
+        background-color: aqua;
+        border: 20%;
+        border-color:rosybrown ;
+        text-align: center;
+
+    }
+    input{
+        border-color: blueviolet;
+        border-radius: 40%;
+        border-style: dashed;
+    }
+    
+</style>
+<body>
+    <form action="">
+    
+    <label for="">Name</label>
+    <input type="text" name=""id=""><br><br>
+    <!-- label is for displaying the label text
+    action  attribute is for to give the url -->
+    <label for="">Email</label>
+    <input type="email" name=""id=""><br><br>
+    <label for="">phonenumber</label>
+    <input type="number" name="" id=""><br><br>
+    <label for="">Landline</label>
+    <input type="tel" name=""id=""><br><br>
+    <label for="">Password</label>
+    <input type="password" name=""id=""><br><br>
+    <label for="">DOB</label>
+    <input type="date" name=""id=""><br><br>
+    <label for="">Course start date</label>
+    <input type="datetime" name=""id=""><br><br>
+    <label for="">Join  date</label>
+    <input type="datetime-local" name=""id=""><br><br>
+    <label for=""> Gender </label>
+    <input type="radio" name="gender"id="">:Male
+    <input type="radio" name="gender"id="">:Female
+    <input type="radio" name="gender"id="">:TransGender<br><br>
+<!-- in raido button the name shouls be same  if we use for one label -->
+    <label for="">Course</label> 
+    <select name="course" id="">
+        <option value="" selected>SELECT</option>
+        <option value="J">JAVA</option>
+        <option value="py">Python</option>
+        <option value="JS">JAVA SCRIPT</option>
+        <option value="sql"> SQL</option>
+        <option value="aws"> AWS</option>
+        <option value="React"> React</option>
+
+    </select>  <br><br>
+    <!-- check boxes all options we can select but in radio button we can select only any one option -->
+    <input type="checkbox" name="" id="">:online
+    <input type="checkbox" name="" id="">:classroom <br><br>
+    <label for="">Resume</label>
+    <input type="file" name="" id=""><br><br>
+    <label for="">GIT URL</label>
+    <input type="url" name="" id=""><br><br>
+    <label for="">classtime</label>
+    <input type="time" name="" id=""><br><br>
+    <label for="">rate your self</label>
+    <input type="range" name="" id=""><br><br>
+    <label for="">month</label>
+    <input type="month" name="" id=""><br><br>
+    <label for="">Week</label>
+    <input type="week" name="" id=""><br><br>
+	 <!-- Resume Link -->
+  	<p><a href="resume.pdf" target="_blank">Download Resume</a></p>
+
+ 	 <!-- Video -->
+  	<video width="640" height="360" controls>
+    <source src="myvideo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+	  </video>
+
+	  <!-- Audio -->
+ 	 <audio controls>
+    <source src="myaudio.mp3" type="audio/mp3">
+ 	   Your browser does not support the audio tag.
+	  </audio>
+    <input"type="submit" value="submit">
+        <input  type="reset" value="cancel">
+        <!-- this button is used to execute the script functions -->
+        <input  type="button" value="Clickme" >
+<!-- after submiting the data the data will store in the  -->
+    <input type="image" src="" alt="" heigh>
+</form>
+
+</body>
+</html>
